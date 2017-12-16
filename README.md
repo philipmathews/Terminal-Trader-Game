@@ -1,10 +1,10 @@
-# Mock Assessment: Terminal Trader Game
+# Phase 1 Assessment: Terminal Trader Game
 
 ---
 
 ### Description
 
-* We will be building a terminal stock trader game. This is a FinTech school after all. 
+* We will be building a terminal stock trader game.
 * The files have been made, notice there is one called `wrapper.py`
 * Our game is going to give users a starting amount of money - maybe $100,000? and let them buy and sell stocks based on the current market info we get from the Markit API. 
 * It should update their earnings whenever they login. There should be an admin who can log in and get an up to date leaderboard.
@@ -13,8 +13,6 @@
 
 ##### Part 1 - Building the Markit API Wrapper
 
-* Install the `requests` library using `pip3`
-    * [HTTP request library](http://docs.python-requests.org/en/latest/)
 * We'll be using the [Markit on Demand API](http://dev.markitondemand.com/) 
 * We will be pulling data from this API in JSON format
 * Examples of the endpoint
@@ -38,7 +36,7 @@ http://dev.markitondemand.com/MODApis/Api/v2/Quote/json?symbol=MSFT
 
 * Your database should have two tables: Users and Stocks.
 * Design a schema. What kind of relationship will these tables have? 
-* What data goes into each table? How will the rows be connected? 
+* What data goes into each table and relationship between 2 tables?
     
 ##### Part 3 - Game Functionality
 
