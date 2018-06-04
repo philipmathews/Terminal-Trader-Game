@@ -1,0 +1,14 @@
+after line 34 before line 36
+            #self.l.add_stock(a,usr,q)
+            #balance=now[0] - total_price
+            #self.l.balance_update(balance,usr)
+in sell
+            #er=self.l.check_stock(usr_n,sn)
+        #print(len(er))
+        #if(len(er) > 1):
+            #for i in er:
+                #l=er.index(i)
+                #print(l,i)
+            #cv=int(input("enter:"))
+        #ty=self.l.check_stock(usr_n)
+        #if usr_n in er
